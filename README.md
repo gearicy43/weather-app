@@ -101,7 +101,26 @@ MIT License
 
 ## 🌐 在线演示
 
-如果您已经部署了这个应用，可以在这里添加演示链接。
+部署后的应用将在 GitHub Pages 上可访问：
+`https://gearicy43.github.io/weather-app/`
+
+## 🚀 部署到 GitHub Pages
+
+### 自动部署
+项目已配置 GitHub Actions，推送到 `main` 分支时会自动部署到 GitHub Pages。
+
+### 手动部署
+```bash
+npm install --save-dev gh-pages
+npm run build
+npm run deploy
+```
+
+### 本地预览
+```bash
+npm run build
+npm run serve
+```
 
 ---
 
