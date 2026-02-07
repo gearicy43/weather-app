@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [solidPlugin()],
   server: {
     port: 3000
+  },
+  base: '/weather-app/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
   }
 })
